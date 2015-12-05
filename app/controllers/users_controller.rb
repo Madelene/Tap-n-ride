@@ -1,6 +1,10 @@
 class UsersController < ApplicationController
 before_action :set_user, only: [:create, :new, :destroy, :show, :update]
 
+  def index
+    @users = User.all
+  end
+
   def create
     @user = User.new(user_params)
     session[:user_id] = @user.id
