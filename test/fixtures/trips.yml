@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  enter_station: MyString
+  exit_station: MyString
+  user_id: 
+
+two:
+  enter_station: MyString
+  exit_station: MyString
+  user_id: 
